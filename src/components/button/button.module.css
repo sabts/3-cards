@@ -1,9 +1,36 @@
+.buttons{
+  display: flex;
+  justify-content: center;
+  align-items: center;  
+  width: 146px;
+  height: 48px;
+  border-radius: 25px;
+  background: #F2F2F2;
+  border: none;
+  font-size: 0.9375rem;
+}
 .orange{
     color: var(--orange);
   }
-  .green{
+.green{
     color: var(--green);
-  }
-  .darkGreen{
+}
+.darkGreen{
      color: var(--darkGreen);
-  }
+}
+
+.orange:hover {
+  border: 2px solid white;
+  background-color: var(--orange);
+  color: white;
+}
+.green:hover {
+  border: 2px solid white;
+  background-color: var(--green);
+  color: white;
+}
+.darkGreen:hover {
+  border: 2px solid white;
+  background-color: var(--darkGreen);
+  color: white;
+}
