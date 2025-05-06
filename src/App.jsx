@@ -1,10 +1,15 @@
-import Button from "./components/button/Button";
+import CardSedans from "./components/card-sedans/CardTemplate";
 
 const App = () => {
   return (
     <>
-      <h1>Template React</h1>
-      <Button />
+    <CardTemplate>
+      <div>
+        <img url="/assets/images/Group 2.svg"/>
+        <h2>SEDANS</h2>
+        <p></p>
+      </div>
+    </CardTemplate
     </>
   );
 };
