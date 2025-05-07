@@ -9,6 +9,10 @@
   border: none;
   font-size: 0.9375rem;
 }
+.buttons:hover{
+  border: 2px solid white;
+  color: white;
+}
 .orange{
     color: var(--orange);
   }
@@ -20,17 +24,11 @@
 }
 
 .orange:hover {
-  border: 2px solid white;
   background-color: var(--orange);
-  color: white;
 }
 .green:hover {
-  border: 2px solid white;
   background-color: var(--green);
-  color: white;
 }
 .darkGreen:hover {
-  border: 2px solid white;
   background-color: var(--darkGreen);
-  color: white;
 }

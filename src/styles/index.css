@@ -37,6 +37,8 @@ body {
 .cardsContainer{
   display: grid;
   grid-template-rows: repeat(3,1fr);
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .card{
@@ -51,11 +53,8 @@ body {
 
 @media screen and (min-width: 1024px) {
   .cardsContainer{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-  }
-  .card{
-    height: 500px;
+    display: flex;
+    height: 600px;
   }
 }
 .small{
